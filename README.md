@@ -12,4 +12,5 @@ Where textInput and textForm are ids for the form and the input parts of the HTM
 Text is considered bot generated if it was programmatically inputed (by variable setting in the console, headless browsers, or even text inputting scripts that attempt to trick the previous two methods). Rozzi sometimes does consider human generated text as bot generated. I'm planning on reworking the implementation in the near future with the following features:
 - Input method verification
 - Typing consistency analysis 
+
 I also think it'd be cool to make this a small machine learning project, so look out for that!
