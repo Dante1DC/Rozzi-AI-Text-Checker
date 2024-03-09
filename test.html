@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Typing Detection Tool</title>
+</head>
+<body>
+    <form id="textForm">
+        <label for="textInput">Enter your text:</label><br>
+        <textarea id="textInput" rows="4" cols="50"></textarea>
+        <button type="submit">Submit Form</button>
+    </form>
+
+    <script type="module">
+        import RozziTypingChecker from './rozzi.js';
+        const detector = new RozziTypingChecker(); 
+        detector.attachToTextInput('textInput', 'textForm');
+    </script>
+</body>
+</html>
